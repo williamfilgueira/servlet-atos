@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.container {
+	width: 90%;
+	height: 100vh;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	background-image: linear-gradient(to right, #0060fd, white);
+	height: 15%;
+}
+
+.box-content {
+	height: 400px;
+	width: 50%;
+	border: 1px solid #2e4fdc29;
+	border-radius: 1px;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	background-image: url("assets/img-home.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+	height: 100%;
+}
+
+.content img {
+	width: 400px;
+}
+
+.botao {
+	width: 12rem;
+	height: 1.8rem;
+	border-radius: 2px;
+	border: 1px solid white;
+	color: white;
+	background: #0547b5;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s;
+	margin-top: 200px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.botao:hover {
+	filter: brightness(1.9);
+}
+
+
